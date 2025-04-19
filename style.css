@@ -1,0 +1,26 @@
+div{
+    height:100px;
+    width:100px;
+    border:50px;
+    background-color: rgb(0, 255, 21);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(51, 0, 128);
+    margin-right: 50px;
+    display:inline-block;
+    text-align: centre;
+    /* display: flex; */
+    justify-content: center;
+    /* height: 100px; */
+  /* line-height: 100px; */
+  /* margin-left: 100px; */
+  margin-top: 10px;
+  /* margin:auto; */
+  border-radius: 3px;
+  /* this is for given radius to border  */
+
+}
+
+
+
+

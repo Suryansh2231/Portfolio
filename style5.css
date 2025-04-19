@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aqua;
+    transition: all 2s ease-in;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    background-image: url("aadarsh.jpg");
+    background-size: cover;
+    transform: scale(4);
+    
+}
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    transform: rotate(45deg);
+    transform: scale(6);
+    /* this property is used to increase the size of div */
+    transform: translate(200px);
+    /* it is used to move the div */
+    transform: skew(45deg);
+}
+/* div:active{
+    background-color:green;
+    color: brown;
+} */

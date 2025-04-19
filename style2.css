@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+#logo{
+    font-size: 25px;
+    color:yellow;
+    margin: 10px;
+    margin-right: 100px;
+}
+button{
+    color: #f08804;
+    /* margin-left: 200px; */
+}
+a{
+    margin-right: 100px;
+}
+.search{
+    margin-left: 250px;
+}

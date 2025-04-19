@@ -1,0 +1,137 @@
+div1 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    /* this is used to align box in the middle of the circle */
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+   margin-top: 50px;
+   margin-left: 50px;
+    /* animation-name: colorAnimate;
+    animation-duration:2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite; 
+    animation-direction: normal; */
+    animation: colorAnimate 4s ease-in 1s infinite normal;
+    border-radius: 50%;
+
+}
+@keyframes colorAnimate{
+    0%{
+        left:0px;
+        background-color: yellow;
+        font-size: 20px;
+    }
+    50% {
+        background-color: blue ;
+        font-size: 25px;
+    }  
+    100% {
+        left:200px;
+        background-color: red;
+        color: white;
+        font-size: 30px;
+    }
+}
+div2 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 162px;
+    border-radius: 50%;
+    margin-left: 300px;
+    animation: positionAnimate 3s ease-in 1s infinite normal;
+}
+@keyframes positionAnimate{
+    0%{
+        left:0px;
+        background-color: skyblue;
+        font-size: 20px;
+    }
+    50% {
+        background-color: black ;
+        font-size: 25px;
+    }  
+    100% {
+        left:200px;
+        background-color: purple;
+        color: white;
+            font-size: 30px;
+    }
+}
+div3 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    top: 266px;
+    margin-left: 600px;
+    animation: sizeAnimate 4s ease-in 1s infinite normal;
+}
+@keyframes sizeAnimate{
+    0%{
+        left:0px;
+        background-color: papayawhip;
+        font-size: 20px;
+    }
+    50% {
+        background-color: blanchedalmond ;
+        font-size: 25px;
+    }  
+    100% {
+        left:200px;
+        background-color: blueviolet;
+        color: white;
+        font-size: 30px;
+    }
+}
+ div4 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    top: 370px;
+    margin-left: 900px;
+    animation: widthAnimate 4s ease-in 1s infinite normal;
+ }
+ @keyframes widthAnimate{
+    0%{
+        left:0px;
+        background-color:yellowgreen;
+        font-size: 20px;
+    }
+    50% {
+        background-color:plum ;
+        font-size: 25px;
+    }  
+    100% {
+        left:200px;
+        background-color:grey;
+        color: white;
+        font-size: 30px;
+    }
+}
+
